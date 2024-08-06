@@ -1,0 +1,153 @@
+.site-layout-background {
+  background: #fff;
+}
+
+.custom-menu .ant-menu-item-selected {
+  border-left: 4px solid #1890ff;
+  background-color: black;
+}
+.custom-menu .ant-menu-item-selected .ant-menu-item-icon {
+  color: #1890ff;
+}
+
+.custom-menu .ant-menu-item::after {
+  display: none;
+}
+
+.site-layout header {
+  background-color: #f5f5f5;
+  max-height: 1.8rem;
+}
+.content-header {
+  color: #001529;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-size: 24px;
+  text-align: left;
+  margin-top: 0.2rem;
+}
+.dash-side-bar {
+  height: 100vh;
+}
+
+.custom-progress .ant-progress-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-progress .ant-progress-circle .ant-progress-circle-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.custom-progress .ant-progress-circle .progress-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.progress-message {
+  font-size: 0.5rem;
+  color: #666;
+}
+
+.dash-table {
+  border-radius: 0.3rem;
+
+  width: 100%;
+  background-color: white;
+}
+.dash-table h3 {
+  padding: 0.5rem;
+}
+
+.feedback-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.feedback-container {
+  display: flex;
+  flex-direction: column;
+  height: 96%;
+  background-color: white;
+  margin-top: 1rem;
+}
+
+.feedback-container h3 {
+  flex-shrink: 0;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.feedback-space {
+  flex-grow: 1;
+  overflow-y: auto;
+  max-height: 300px;
+  margin: 0.8rem;
+}
+/* Scrollbar styles for WebKit browsers */
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  scrollbar-width: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+}
+.ant-layout-sider-trigger {
+  display: none;
+}
+.custom-trigger {
+  position: absolute;
+  bottom: 16px;
+  left: 23px;
+
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .dash-side-bar {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .dash-side-bar {
+    display: none;
+  }
+}
+
+/* Ensure full height of the page */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+}

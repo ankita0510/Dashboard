@@ -1,0 +1,59 @@
+.activity-div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.6rem;
+  background-color: white;
+  border-radius: 0.3rem;
+  width: inherit;
+  /* padding: 1rem; */
+}
+.activity-span {
+  margin-top: -0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+.activity-menu {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  width: inherit;
+  padding: 1rem;
+  margin-top: 0.6rem;
+  border-radius: 0.3rem;
+}
+.activity-menu div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.activity-menu div span {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin: 0.4rem;
+}
+.activity-menu div span h4 {
+  margin-left: 1rem;
+}
+
+.activity-menu div span:last-child {
+  margin-bottom: 0; /* Remove margin from last item */
+}
+
+.activity-circle-icon {
+  background: red;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.activity-circle-greater-icon {
+  background: #abb1b8;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 15px;
+  color: white; /* Text color inside the icon */
+}
